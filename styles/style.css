@@ -1,0 +1,35 @@
+html {
+   font-size: 26px;
+   font-family: 'Mukta', sans-serif;
+   background-color: #72DBCD;
+}
+
+h1 {
+   font-size: 82px;
+   text-align: center;
+   margin 0;
+   padding: 24px 0;
+   color: #121212;
+   text-shadow: 4px 2px 16px #F7F7F7;
+}
+
+img {
+   display: block;
+   margin: 0 auto;
+   width: 630px;
+   border: 7px solid #EBEBEB;
+}
+
+p, li {
+   font-size: 25px;
+   line-height: 1.25;
+   letter-spacing: 3.14px;
+}
+
+body {
+   width: 720px;
+   margin: 0 auto;
+   background-color: #CCB4F5;
+   padding: 0 16px 24px 16px;
+   border: 5px solid #F2F2F2;
+}
