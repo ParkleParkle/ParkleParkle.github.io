@@ -6,7 +6,7 @@ myImage.onclick = function() {
    if(mySrc === 'test-images/sun-pixels5-720x720.png') {
      myImage.setAttribute ('src','test-images/Bear-1(720x720).png');
    } else {
-     myImage.setAttribute ('src','test-images/sun-pixels5-720x720.png');
+     myImage.setAttribute ('src','test-images/Bear-3(720x720).png');
    } 
 
 }
