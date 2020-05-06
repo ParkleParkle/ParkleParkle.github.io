@@ -11,15 +11,48 @@
   
   <body>
   <!-- <button>Change user</button> -->
-    <h1>&lt; Bear astronaut &gt;</h1>   
-    <img src='test-images/sun-pixels5-720x720.png' alt='Pixel-Sun'>
+    <header>
+      <h1 align="center">&lt; Bear astronaut &gt;</h1>
+    </header>   
+
+    <img class="main" src='test-images/sun-pixels5-720x720.png' alt='Pixel-Sun' width="720" height="720" title="Pixel-Sun" vspace="8">
+    <p></p>
+    <marquee behavior="alternate" onmousedown="this.stop()" onmouseup="this.start()" direction="right" scrollamount="12"> <img src="test-images/skafander(64x64).png"> </marquee>
     <p>"Bear astronaut", it's place for:</p>
-      <ul>
-        <li>space</li>
-        <li>time</li>
-        <li><a href="pages/action.html">action</a></li>
-      </ul>  
+
+      <nav>  
+        <ul>
+          <li><button>Space</button></li>
+          <li><button>Time</button></li>
+          <li><button><a href="pages/action.html">Action</a></button></li>
+        </ul>  
+        
+        <!--
+        <form>
+          <input type="search" name="q" placeholder="Search query">
+          <input type="submit" value="Go!">
+        </form>
+        -->
+      </nav>
+  
+    
+
+    <main>
+    <!-- Block main -->
+      <article>
+      <!-- Block article -->
+      </article>
+        <aside>
+        <!-- Block aside -->
+        </aside>
+    </main>
+
+    <hr>
+    <footer>
+      <p> <strong>◬Parkle</strong> </p>
+    </footer>
 
   <script src='scripts/main.js'></script>
+
   </body>
 </html> 
